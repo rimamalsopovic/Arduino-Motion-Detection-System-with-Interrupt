@@ -4,12 +4,12 @@
 1. Introduction
 2. Components
 2.1 Input and outputs
-3. Algorithm Description
-4. Block diagram
-5. Connection schematic
+4. Algorithm Description
+5. Block diagram
+6. Connection schematic
 5.1 Physical system connection
-6. Flow chart
-7. Conclusion
+7. Flow chart
+8. Conclusion
 
 # 1. Introduction
 
