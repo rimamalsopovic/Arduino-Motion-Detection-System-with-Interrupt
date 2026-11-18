@@ -53,6 +53,8 @@ This system works in a constantly running if statement within a loop, with this 
 
 Below is a block diagram of the previously explained system. As it can be seen below the PIR sensor will send a signal to the Arduino Uno microcontroller from the data it gathered. The microcontroller will in turn take this data and forward instructions to both the buzzer and the LED.
 
+<img width="974" height="944" alt="image" src="https://github.com/user-attachments/assets/4a1d027f-39e0-4aa5-9264-961b1fe1dad2" />
+
  
 Figure 1. Block Diagram of Motion Detection System
 
@@ -68,18 +70,27 @@ LED +	Pin 6
 LED -	Resistor → GND
 Buzzer +	Pin 12
 Buzzer -	GND
+
+<img width="975" height="588" alt="image" src="https://github.com/user-attachments/assets/99b18d25-5f24-42c7-b254-99eb89d2b2c1" />
+
  
 Figure 2. Connection Schematic of Motion Detection System
 
 # 5.1 Physical system connection
 
 Below an image of the physical system powered off can be seen.
+
+<img width="860" height="1146" alt="image" src="https://github.com/user-attachments/assets/0130211e-d796-4111-b3d6-e8527c5b14db" />
+
  
 Figure 3. Physical system
 
 # 6. Flow chart
 
 The flow chart below how the system operates. Once it is started it will be checking if motion has been detected. If it has been detected then it will send a HIGH signal (the yes branch), in which the buzzer will produce a noise and the LED will emit a light. If there is a LOW signal (no branch) then the buzzer will remain silent and no light will be emitted from the LED. 
+
+<img width="975" height="965" alt="image" src="https://github.com/user-attachments/assets/461d7db7-14ca-46d0-8825-c8b65391fb25" />
+
  
 Figure 4. Flow Chart of Motion Detection System
 
